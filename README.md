@@ -5,10 +5,10 @@ To compile the program run -
 We have created a Makefile, and running make will compile everything automatically on Ubuntu.
 
 2) To run seperately - 
-  1) yacc -d BMM_Parser.y
-  2) lex BMM_Scanner.l
-  3) cc lex.yy.c y.tab.c -o a.exe -ll
-  4) ./a.exe
+   a. yacc -d BMM_Parser.y
+   b. lex BMM_Scanner.l
+   c. cc lex.yy.c y.tab.c -o a.exe -ll
+   d. ./a.exe
 
 or it can be given in this way also -
 yacc -d BMM_Parser.y; lex BMM_Scanner.l; cc lex.yy.c y.tab.c -o a.exe -ll; ./a.exe
